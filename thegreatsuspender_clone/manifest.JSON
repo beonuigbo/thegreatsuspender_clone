@@ -1,0 +1,30 @@
+{
+    "Manifest_version": 3,
+    "name": "Our Awesome Extension",
+    "version": "1.0.1",
+    
+  "action": {
+
+    "default_icon": {
+      "coolDog": "assets/cool.png"
+    }
+
+  },
+  "default_locale": "en",
+  "description": "A plain text description",
+  "icons": {
+    "coolDog": "assets/cool.png"
+  },
+
+  "permissions": ["scripting", "activeTab"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  }
+
+}
+
